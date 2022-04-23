@@ -27,6 +27,7 @@ const TotalLearningTime: React.VFC<Props> = (props) => {
         <Typography variant="h6" component="p" sx={{ mr: '20px' }}>
           {props.learningTime}
         </Typography>
+        hour
       </Box>
     </>
   )
