@@ -8,6 +8,7 @@ import type { NextPage } from 'next'
 import * as React from 'react'
 
 import LearningTimeWrapper from '../src/components/molecules/LearningTimeWrapper'
+import RecordModal from '../src/components/atoms/RecordModal'
 
 const Home: NextPage = () => {
   return (
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
           </Toolbar>
         </AppBar>
         <LearningTimeWrapper />
+        <RecordModal />
       </Box>
     </>
   )
